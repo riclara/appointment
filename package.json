@@ -1,5 +1,5 @@
 {
-  "name": "tasks",
+  "name": "appointment",
   "version": "1.0.0",
   "description": "task api",
   "main": "server/app.js",
@@ -13,17 +13,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/riclara/tasks.git"
+    "url": "git+ssh://git@github.com/riclara/appointment.git"
   },
   "keywords": [
     "evaluation"
   ],
   "author": "riclara@gmail.com",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/riclara/tasks/issues"
+  "engines": {
+    "node": "10.x"
   },
-  "homepage": "https://github.com/riclara/tasks#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
